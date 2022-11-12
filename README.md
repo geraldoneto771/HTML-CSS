@@ -16,7 +16,7 @@
 
 <a href="https://geraldoneto771.github.io/meu-portfolio-frontend/crypto-engine/index.html">
 
-<img width="650cm" align="center" alt="netflix" src="https://github.com/geraldoneto771/meu-porftolio-front-end/blob/main/imgs/projeto-crypto-engine.png">
+<img width="650cm" align="center" alt="Crypto Engine" src="https://github.com/geraldoneto771/meu-porftolio-front-end/blob/main/imgs/projeto-crypto-engine.png">
 
 ## Conecte-se comigo:
 
