@@ -10,13 +10,9 @@
 
 <a href="https://geraldoneto771.github.io/meu-portfolio-frontend/netflix-profiles-selection/index.html">Acessar site</>
 
-<img width="650cm" align="center" alt="netflix" src="https://github.com/geraldoneto771/meu-porftolio-front-end/blob/main/imgs/netflix-profile-selection.png">
-
 ## Projeto Crypto Engine
 
 <a href="https://geraldoneto771.github.io/meu-portfolio-frontend/crypto-engine/index.html">Acessar site</a>
-
-<img width="650cm" align="center" alt="Crypto Engine" src="https://github.com/geraldoneto771/meu-porftolio-front-end/blob/main/imgs/projeto-crypto-engine.png">
 
 ## Matheus Moura Serviços
 
