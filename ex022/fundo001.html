@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagem de Fundo</title>
+    <style>
+        body {
+            background-image: url(img/wallpaper001.jpg);
+            text-align: center;
+        }
+
+        div.quadrado {
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: lightgray;
+            width: 300px;
+            height: 300px;
+        }
+
+        div#q1 {
+            background-color: rgb(189, 87, 202);
+        }
+
+        div#q2 {
+            background-image: linear-gradient(to bottom, rgb(0, 255, 149), rgb(14, 62, 151));
+            position: relative;
+            ;
+
+
+        }
+
+        div#q2 img {
+            display: inline-block;
+            width: 50px;
+            position: absolute;
+
+
+        }
+
+        div#gif {
+            background-image: url(img/bolhas.gif);
+            width: 300px;
+            height: 300px;
+        }
+
+
+        img#fish1 {
+            top: 15%;
+            left: 40%;
+            transition: 800ms;
+            animation: moveToLeft 5s linear infinite;
+            animation-delay: 1000ms;
+
+
+
+        }
+
+        @keyframes moveToLeft {
+            0% {
+                transform: translateX(0px);
+            }
+
+            25% {
+                transform: translateX(100px);
+            }
+
+            50% {
+                transform: translateY(75px) translateX(75px);
+                transform: rotateY(180deg);
+
+            }
+
+            75% {
+                transform: translateY(0px) translateX(50px);
+
+
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        img#fish1:hover {
+            transition: 500ms linear;
+            top: 15%;
+            left: 50%;
+        }
+
+        img#fish2 {
+
+            top: 42%;
+            left: 10%;
+            transition: 800ms;
+        }
+
+        img#fish2:hover {
+            transition: 500ms linear;
+            top: 42%;
+            left: 20%;
+        }
+
+        img#fish3 {
+
+            top: 70%;
+            left: 65%;
+            transition: 800ms;
+        }
+
+        img#fish3:hover {
+            transition: 500ms linear;
+            top: 70%;
+            left: 75%;
+        }
+
+
+        div#q3 {
+            background-image: url(img/pattern003.png);
+        }
+
+
+
+        div h1 {
+            font: bold 2em Arial;
+            border-bottom: 2px solid black;
+        }
+
+        #bloco {
+            background-color: aliceblue;
+            padding: 20px 10px;
+            width: 350px;
+            margin: auto;
+
+
+        }
+
+        #bloco ul {
+            list-style-position: inside;
+            margin: 0px 25px;
+            padding: 0px;
+            text-align: left;
+            line-height: 2em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="quadrado" id="q1"></div>
+    <div class="quadrado" id="q2">
+        <div id="gif">
+            <img id="fish1" src="https://cdn-icons-png.flaticon.com/512/911/911123.png" alt="">
+            <img id="fish2" src="https://cdn-icons-png.flaticon.com/512/911/911123.png" alt="">
+            <img id="fish3" src="https://cdn-icons-png.flaticon.com/512/911/911123.png" alt="">
+        </div>
+    </div>
+    <div class="quadrado" id="q3"></div>
+    <div>
+        <h1>Colocando Imagens de fundo</h1>
+        <div id="bloco">
+            <p>Aprendendo a trabalhar com Imagens de fundo: </p>
+            <ul>
+                <li>Criação</li>
+                <li>Posições</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
